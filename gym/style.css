@@ -1,0 +1,221 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+}
+
+footer{
+    background: #343434;
+    margin-top: 900px;
+}
+.foot-cont{
+    width: 1140px;
+    color: white;
+    font-family: serif;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.foot_content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.foot_content p{
+    width:190px;
+    margin: auto;
+    padding: 7px;
+}
+.foot_content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.list li::before{
+    content: '';
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 2px;
+    background: #f18930;
+    transition-duration: .5s;
+}
+.list li:hover::before{
+    width: 70px;
+}
+.social-icons{
+    text-align: center;
+    padding: 0;
+}
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+.social-icons i{
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #f18930;
+}
+a:active{
+    color:white;
+}
+.social-icons i:hover{
+    color: #f18930;
+}
+.bto{
+    background: #f18930;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.bto p{
+    color: #343434;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
+
+    .banner{
+        min-height:110vh;
+        width: 100%;
+    background-image: url(imag/gym.jpg);
+    font-family: 'Anton';
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    }
+    .left{
+        display:inline-block;
+        position:absolute;
+        left:11px;
+        top:-50px;
+        
+    }
+    .left img{
+        width: 74px;
+         padding-left: 20px;
+         padding-top: 20px;
+         }
+
+    .text{
+        line-height:0px ;
+        font-size: 25px;
+             }
+    .mid{
+        display:block;
+       width:55%;
+       margin: 20px auto;
+        
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        list-style: none; 
+       
+    }
+    .navbar li a{
+        color: black;
+        text-decoration:none;
+       
+        padding:43px;
+        font-size: 23px;
+       
+    }
+    .navbar li a.active{
+       color:rgb(173, 69, 69)
+    }
+
+    .navbar li a:hover{
+color: rgb(255, 0, 0);
+    }
+
+    .right-r{
+        display:inline-block;
+        position:absolute;
+        right:134px;
+        top:10px;  
+    }
+    .right{
+        display:inline-block;
+        position:absolute;
+        right:24px;
+        top:10px;
+    }
+
+    .container{
+        margin: 55px;
+        margin-top: -45px;
+        position: absolute;
+        width:500px;
+        padding:60px;
+        top: 175px;
+    }
+    h1{
+        font-family:Arial, Helvetica, sans-serif;
+        line-height:62px;
+       margin-left: 55px;
+
+    }
+    .button{
+        border-radius:0px;
+        width:100px;
+        height:55px;
+        text-align: center;
+        font-size: 19px;
+        background-color: rgb(179, 14, 14);
+        border-radius: 5px;
+        color:antiquewhite;
+    }
+    .btn{
+        color:antiquewhite;
+        background-color: rgb(179, 14, 14);
+        line-height: 34px;
+        text-align: center;
+        font-size: 19px;
+        margin-left: 90px;
+        margin-top: 14px; 
+        width: 93px;
+        height:47px
+        border-1px solid  rgb(179, 14, 14);
+        border-radius: 9px;
+        }
+    .button:hover{
+        background-color: rgb(141, 12, 12) ;
+    }
+        .btn:hover{
+            background-color: rgb(141, 12, 12) ;
+        }
+    form input{
+         font-size: 22px;
+         height:32px;
+         width:255px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         text-align: center;
+         margin: 16px;
+         position: relative;
+         border:2px solid black;
+         border-radius: 12px ;
+    }
+  
